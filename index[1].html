@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EduTask - Portal Escolar</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header><h1>EduTask</h1><p>Portal escolar - Web app ligera</p></header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Iniciar sesión</h2>
+      <input id="email" type="email" placeholder="Correo" />
+      <input id="password" type="password" placeholder="Contraseña" />
+      <div class="row">
+        <button id="btnLogin">Iniciar sesión</button>
+        <button id="btnRegister">Crear cuenta</button>
+      </div>
+      <p id="msg" class="msg"></p>
+    </section>
+
+    <section class="card">
+      <h3>Accesos rápidos</h3>
+      <p><a href="pages/student.html" target="_blank">Ver interfaz alumno (demo)</a></p>
+      <p><a href="pages/teacher.html" target="_blank">Ver interfaz docente (demo)</a></p>
+    </section>
+
+    <section class="card">
+      <h3>Documentos de análisis y diseño</h3>
+      <ul>
+        <li><a href="docs/DOC-20251124-WA0055..pdf" target="_blank">Documento 1 (PDF)</a></li>
+        <li><a href="docs/EQUIPO1_ETAPA2_ANÁLISIS CORREGIDO.pdf" target="_blank">Análisis (PDF)</a></li>
+        <li><a href="docs/Equipo #1 Etapa #3_Diseño.pdf" target="_blank">Diseño (PDF)</a></li>
+      </ul>
+    </section>
+
+    <footer class="card">
+      <small>Creado para presentación. Reemplaza firebase-config.js con tu configuración.</small>
+    </footer>
+  </main>
+
+  <script src="scripts/firebase-config.example.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
